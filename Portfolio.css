@@ -1,0 +1,285 @@
+body  
+{
+    background: #1f2937;
+}
+.port1 
+{
+    padding: 30px; 
+    
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.port2>img
+{
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.socialmedia  i{
+   
+  
+    transition: 0.5s;
+    padding: 20px 0;
+}
+.socialmedia i:hover {
+    transition: 2.3s;
+    transform: scale(1.5);
+}
+.socialmedia{
+    margin-top: 20px;
+   
+    gap: 12px;
+}
+.port3 
+{
+    padding: 30px;
+    color: white;
+     margin-left: 30px;
+
+}
+.port4>img 
+{
+    padding: 20px;
+
+}
+.port4  
+{
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+}
+.port4:hover 
+{
+     box-shadow: 2px 2px 2px 2px yellowgreen;
+}
+.port4>a  
+{
+    font-size: 30px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 20px;
+    padding: 20px;
+}
+.port5 
+{
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+}
+.port5:hover 
+{
+     box-shadow: 2px 2px 2px 2px yellowgreen;
+}
+.port5>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 20px;
+    padding: 20px;
+}
+.port6
+{
+    box-shadow: 2px 2px 2px 2px whitesmoke;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+}
+.port6:hover 
+{
+     box-shadow: 2px 2px 2px 2px yellowgreen;
+}
+.port6>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 50px;
+    padding: 25px;
+}
+.port6 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+.port5 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+.port4 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+.port7
+{
+    box-shadow: 2px 2px 2px 2px orange;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+   transition: 0.5s;
+
+}
+.port7 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.port7>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 50px;
+    padding: 25px;
+}
+.port8
+{
+    box-shadow: 2px 2px 2px 2px skyblue;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+   transition: 0.5s;
+
+}
+.port8 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.port8>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 50px;
+    padding: 25px;
+}
+.port9
+{
+    box-shadow: 2px 2px 2px 2px yellowgreen;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+   transition: 0.5s;
+
+}
+.port9 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.port9>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 50px;
+    padding: 25px;
+}
+.port10
+{
+    box-shadow: 2px 2px 2px 2px darkviolet;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+   transition: 0.5s;
+
+}
+.port10 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.port10>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 50px;
+    padding: 25px;
+}
+.port11
+{
+    box-shadow: 2px 2px 2px 2px     #61DBFB;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+   transition: 0.5s;
+
+}
+.port11 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.port11>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 50px;
+    padding: 25px;
+}
+.port12
+{
+    box-shadow: 2px 2px 2px 2px whitesmoke ;
+    padding: 15px;
+    margin-left: 35px;
+   height: 200px;
+   width: 70%;
+   transition: 0.5s;
+
+}
+.port12 img:hover {
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.port12>a  
+{
+    font-size: 20px;
+    color: whitesmoke;
+    align-content: center;
+    margin-left: 50px;
+    padding: 25px;
+}
+.port13>input 
+{
+    width: 87%;
+     border-radius: 10px;
+     font-size: 20px;
+
+}
+.port13  
+{
+    padding: 20px;
+
+}
+.port13>textarea 
+{
+    width: 87%;
+     border-radius: 10px;
+}
+.port13>button  
+{
+    padding: 10px;
+    margin-left: 50px;
+    width: 30%;
+    font-size: 25px;
+    background: skyblue;
+   border-radius: 10px;
+}
+
+
+

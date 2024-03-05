@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>  
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">  
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Portfolio.css">
+   <script type="text/javascript">
+     function abi()
+     {
+      var a=document.getElementById('username').value;
+      var b=document.getElementById('email').value;
+      var c=document.getElementById('area').value;
+      var mailformat= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+      if (a!='') 
+        {
+            if (a.length>6) 
+              {
+                     document.getElementById('user').innerHTML="";
+                     
+
+                    if (b.match(mailformat))
+                     {
+                        document.getElementById('mail').innerHTML="";
+                       
+                        document.getElementById('x').innerHTML="Thank You for submitting as:"+a;
+
+                     }
+                      else
+                       {
+                         document.getElementById('mail').innerHTML="please enter valid email id";
+                       }
+              } 
+              else 
+              {
+                document.getElementById('user').innerHTML="please enter correct  name";
+              }
+        } 
+        else
+         {
+            document.getElementById('user').innerHTML="please enter name";
+            document.getElementById('mail').innerHTML="please enter email";
+         }
+     }
+   </script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar2" aria-expanded="true">
+
+          <span class="sr-only">Toggle navigation</span>
+
+          <span class="icon-bar"></span>
+
+          <span class="icon-bar"></span>
+
+          <span class="icon-bar"></span>
+
+        </button>
+
+        <a class="navbar-brand" href="" style=" font-size: 3rem;line-height: 1;color: rgb(255 255 255);">ABILASH
+
+        </a>
+
+      </div>
+
+      <div id="navbar2" class="navbar-collapse collapse in" aria-expanded="true" style="">
+
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li> 
+                <li><a href="#project">PROJECTS</a></li>
+                <li><a href="#exp">EXPERIENCE</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+
+               <li><a href=""><i class="fa fa-phone-square"> +918056484889</i></a></li>
+
+                <li><a href=""><i class="fa fa-envelope"> abilash159506@gmail.com</i></a></li>
+        
+        </ul>
+
+        
+
+      </div>
+
+      <!--/.nav-collapse -->
+ 
+    </div>
+
+    <!--/.container-fluid -->
+
+  </nav><br><br><br><br>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="port1">
+      <h1 style="font-size: 80px;">I'm a Frontend Developer</h1>
+      <br>
+      Currently, I love to work on web application technologies like<br> React, Javascript, Bootstrap, Css, Html.<br><br>
+       <div class="socialmedia">
+     <a href="https://www.linkedin.com/in/abilash-s-804811105" target="new"> <i class=" fa fa-linkedin-square" style="font-size: 50px;color: #0077b5; margin-right: 10px;"></i></a>
+      <a href="https://www.facebook.com/abi.lash.792?mibextid=ZbWKwL" target="new"><i class="fa fa-facebook" style="font-size: 45px;color: #316FF6; margin-right: 10px"></i></a>
+      <a href="https://github.com/Abil1595" target="new"><i class="fa fa-github" style="font-size: 50px;color: white;  margin-right: 10px;border-radius: 10px;"></i></a>
+     <a href="https://www.youtube.com/@ElectricTechWorld" target="new"><i class="fa fa-youtube-play" style="font-size: 55px;color: #CD201F; margin-right: 10px; "></i></a>
+   </div>
+      
+     </div>
+    </div>
+    <div class="col-md-6">
+      <div class="port2">
+      <center><img src="portfolio.jpg" width="70%" style="border: 5px solid white; border-radius: 20px;"></center>
+     </div>
+    </div>
+  </div><br><br><br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="port3">
+       <h1 id="about" style="font-size: 70px;" >About</h1><br><br>
+      <h5   style="font-size: 30px;" >I have completed BE in Electrical and Electronics and I have 2 and half <br>years experience in Digital Marketing. Now I am searching for a job<br> in
+Software  Industry As  a <b>React js or frontend developer</b> as a intermediate <br>I will surely do my responsibilities and will develop my knowledge. <br> I am open to opportunities for the same.</h5>
+    </div>
+  </div>
+  </div><br><br><br>
+  <div class="row">
+<h1  id="project"style="font-size: 70px; padding: 30px; color: white; margin-left: 30px;">Projects</h1><br><br>
+    <div class="col-md-4">
+      <div class="port4">
+        <center><img src="project1.png" width="90%"></center><br>
+        <a href="https://electricalonlinestores.on.drv.tw/electricalprojects/newproject.html" target="new">Electric World
+        </a>
+      </div>
+      
+    </div>
+    <div class="col-md-4">
+      <div class="port5">
+        <center><img src="project2.png" width="90%"></center><br>
+        <a href="https://github.com/Abil1595/new-react" target="new">Electric World(React)
+        </a>
+      </div>
+      
+    </div>
+    <div class="col-md-4">
+      <div class="port6">
+        <center><img src="project 3.png" width="55%"></center><br>
+        <a href="https://electricalonlinestores.on.drv.tw/Calculator/calulator.html" target="new">Calculator 
+        </a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="row">
+    <h1  id="exp" style="font-size: 70px; padding: 30px; color: white; margin-left: 30px;">Experience</h1><br><br>
+    <div class="col-md-4">
+      <div class="port7">
+        <center><img src="html.png" width="55%"></center> 
+      </div>
+    </div>
+      <div class="col-md-4">
+      <div class="port8">
+        <center><img src="css.png" width="55%"></center>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="port9">
+        <center><img src="javascript.png" width="55%"></center>
+      </div>
+    </div>
+  </div><br><br>
+  <div class="row">
+ <div class="col-md-4">
+      <div class="port10">
+        <center><img src="bootstrap.png" width="55%"></center> 
+      </div>
+    </div>
+      <div class="col-md-4">
+      <div class="port11">
+        <center><img src="react.png" width="55%"></center>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="port12">
+        <center><img src="github.png" width="55%"></center>
+      </div>
+    </div>
+  </div><br><br><br>
+  <div class="row">
+     <h1 id="contact" style="font-size: 70px; padding: 30px; color: white; margin-left: 30px;">Contact</h1><br><br>
+
+     <div class="col-md-4">
+       
+     </div>
+      <div class="col-md-4">
+       <div class="port13">
+         <h3 style="color: white;" id="x"></h3>
+         <input type="text" name="" id="username" placeholder="enter your name"><br>
+         <span id="user" style="color: red;"></span>
+         <br>
+         <input type="email" name="" id="email" placeholder="enter your email"><br>
+        <span id="mail" style="color: red;"></span>
+         <br>
+         <textarea rows="5" cols="45" id="area" placeholder="enter your message"></textarea><br><br>
+         <button onclick="abi()">Submit</button>
+       </div>
+     </div>
+      <div class="col-md-4">
+       
+     </div>
+  </div>
+</body>
+</html>
